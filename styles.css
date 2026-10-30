@@ -11,8 +11,9 @@
 /* Uncropped portraits retain the original 2:3 proportions at every width. */
 .portrait-frame{margin:0;background:#e9ebdf;border:1px solid var(--line);border-radius:3px;padding:12px;min-width:0}
 .portrait-frame img{display:block;width:100%;max-width:100%;height:auto;border-radius:2px}
-.hero-portrait{width:100%;max-width:350px;justify-self:center;box-shadow:12px 12px 0 #e9ebdf66}
+.hero-portrait{width:100%;max-width:260px;justify-self:center;box-shadow:12px 12px 0 #e9ebdf66}
 .hero-portrait figcaption{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-top:12px;font-size:8px;letter-spacing:1.2px}
 .hero-portrait figcaption span{color:var(--muted)}
-.about-portrait{width:100%;max-width:200px;margin:0 auto 28px;padding:8px}
-@media(max-width:560px){.hero-portrait{max-width:300px}.about-portrait{max-width:220px}}
+.about-portrait{width:100%;max-width:150px;margin:0 auto 28px;padding:8px}
+@media(max-width:800px){.hero-portrait{max-width:220px}}
+@media(max-width:560px){.hero-portrait{max-width:190px}.about-portrait{max-width:140px}.hero-portrait figcaption{font-size:7px;letter-spacing:.8px;gap:4px}.hero-portrait{box-shadow:8px 8px 0 #e9ebdf66}}
